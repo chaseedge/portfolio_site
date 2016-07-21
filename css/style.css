@@ -6,23 +6,22 @@ body {
   color: #2d3c49;
 }
 
+h1, h3 {
+  margin: 0;
+}
 
 /* header */
 .logo {
   margin-top: 25px;
 }
 
-.myTitle {
-  text-transform: uppercase;
+header h1, h3 {
   text-align: right;
-  margin-top: 25px;
+  text-transform: uppercase;
 }
 
-.myTitle h1, h3 {
-  margin: 0;
-}
-
-.myTitle h1 {
+header h1 {
+  margin-top: 20px;
   font-size: 48px;
 }
 
@@ -47,25 +46,25 @@ p {
   text-align: justify;
   font-size: 1.5em;
 }
-section.featured {
+.featured {
   margin-top: 20px;
 }
 
-section.featured article {
+.featured article {
   padding: 0 5px;
   margin-bottom: 25px;
   text-align: center;
 }
 
-section.featured article:first-of-type {
+.featured article:first-of-type {
   padding: 0 10px 0 0 ;
 }
 
-section.featured article:last-of-type {
+.featured article:last-of-type {
   padding: 0 0 0 10px;
 }
 
-section.featured article h4 {
+.featured article h4 {
   margin: 5px 0 0 0;
 }
 
@@ -82,11 +81,11 @@ section.featured article h4 {
     height: 65px;
   }
   
-  .myTitle h1 {
+  header h1 {
     font-size: 2.25em;
   }
   
-  .myTitle h3 {
+  header h3 {
     font-size: 1em;
   }
   
@@ -94,19 +93,19 @@ section.featured article h4 {
     font-size: 1em;
   }
   
-  section.featured {
+  .featured {
     text-align: center;  
   }
   
-  section.featured article {
+  .featured article {
     padding: 0;
   }
 
-  section.featured article:first-of-type {
+  .featured article:first-of-type {
     padding: 0;
   }
 
-  section.featured article:last-of-type {
+  .featured article:last-of-type {
     padding: 0;
   }
     
